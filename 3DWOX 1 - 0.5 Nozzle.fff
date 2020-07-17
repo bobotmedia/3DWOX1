@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Sindoh 3DWOX1 0.5 Nozzle" version="2020-07-17 15:13:47" app="S3D-Software 4.1.2">
+<profile name="Sindoh 3DWOX1 - 0.5 Nozzle" version="2020-07-17 15:13:47" app="S3D-Software 4.1.2">
   <baseProfile>Sindoh 3DWOX1 (modified)</baseProfile>
   <printMaterial>PLA</printMaterial>
   <printQuality>Medium</printQuality>
