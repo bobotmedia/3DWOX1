@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="3DWOX 1 - 0.5 Nozzle" version="2020-07-12 17:56:08" app="S3D-Software 4.1.2">
+<profile name="Sindoh 3DWOX1 0.5 Nozzle (07.12.2020)" version="2020-07-17 15:13:47" app="S3D-Software 4.1.2">
   <baseProfile>Sindoh 3DWOX1 (modified)</baseProfile>
   <printMaterial>PLA</printMaterial>
   <printQuality>Medium</printQuality>
@@ -9,7 +9,7 @@
     <diameter>0.4</diameter>
     <autoWidth>0</autoWidth>
     <width>0.5</width>
-    <extrusionMultiplier>1.03</extrusionMultiplier>
+    <extrusionMultiplier>1</extrusionMultiplier>
     <useRetract>1</useRetract>
     <retractionDistance>6</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
@@ -45,7 +45,7 @@
   <useSkirt>1</useSkirt>
   <skirtExtruder>0</skirtExtruder>
   <skirtLayers>1</skirtLayers>
-  <skirtOutlines>2</skirtOutlines>
+  <skirtOutlines>4</skirtOutlines>
   <skirtOffset>10</skirtOffset>
   <usePrimePillar>0</usePrimePillar>
   <primePillarExtruder>999</primePillarExtruder>
@@ -142,11 +142,11 @@
   <baudRateOverride>115200</baudRateOverride>
   <overridePrinterModels>1</overridePrinterModels>
   <printerModelsOverride></printerModelsOverride>
-  <startingGcode>;PRINTER_MODEL: [3DWOX 1],T0 ; select primary tool,M140 S[bed0_temperature],M190 S[bed0_temperature],M104 S[extruder0_temperature] T0,M109 S[extruder0_temperature] T0,,G200 ; clean nozzle,G21;  metric values,G28 ; home all axes,G0 Z3 F9000 ; lower the bed,M206 X0.0 Y0.0 Z-0.15 ; setup offsets,,G0 F2400 Z0.200,,G1 X5 Y5 Z0.2 F3000 ; get ready to prime,,G92 E0 ; reset extrusion distance,G1 X80 E10 F600 ; prime nozzle,G1 X100 F5000 ; quick wipe</startingGcode>
+  <startingGcode>;PRINTER_MODEL: [3DWOX 1],T0 ; select primary tool,M140 S[bed0_temperature],M104 T0 S[extruder0_temperature],,M107	;fan off,G200	;nozzle cleaning,G21	;metric values,G90	;absolute positioning,G92 E-20	;zero the extruded length,,M190 S[bed0_temperature],M109 T0 S[extruder0_temperature],,G28	;Home,M298	;Move Nozzles on Bed plate,G0 F9000 Z3.00,M206 X0.0 Y0.0 Z-0.15		;Offset z direction,,G1 F1800 E-6.000000,</startingGcode>
   <layerChangeGcode></layerChangeGcode>
   <retractionGcode></retractionGcode>
   <toolChangeGcode></toolChangeGcode>
-  <endingGcode>M2 ; sindoh ending scripts</endingGcode>
+  <endingGcode>M2  ;Sindoh ending scripts</endingGcode>
   <exportFileFormat>gcode</exportFileFormat>
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
@@ -197,7 +197,7 @@
   <autoConfigureMaterial name="PLA">
     <globalExtruderTemperature>200</globalExtruderTemperature>
     <globalBedTemperature>60</globalBedTemperature>
-    <globalExtrusionMultiplier>1.03</globalExtrusionMultiplier>
+    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
       <setpoint layer="2" speed="100"/>
@@ -206,7 +206,7 @@
   <autoConfigureMaterial name="ABS">
     <globalExtruderTemperature>230</globalExtruderTemperature>
     <globalBedTemperature>90</globalBedTemperature>
-    <globalExtrusionMultiplier>1.1</globalExtrusionMultiplier>
+    <globalExtrusionMultiplier>1.05</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
     </fanSpeed>
@@ -214,7 +214,7 @@
   <autoConfigureMaterial name="PETG">
     <globalExtruderTemperature>235</globalExtruderTemperature>
     <globalBedTemperature>90</globalBedTemperature>
-    <globalExtrusionMultiplier>1.03</globalExtrusionMultiplier>
+    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
       <setpoint layer="2" speed="60"/>
