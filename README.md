@@ -3,7 +3,7 @@ Files related to Sindoh 3DWOX1
 
 |||
 |-|-|
-|__3DWOX 1 - 0.5 Nozzle.fff__|Simplify3D profile for PLA, ABS, PETG filament using 0.5mm nozzle setting|
+|__3DWOX 1 - 0.5 Nozzle.fff__|Simplify3D 4.1.2 profile for PLA, ABS, PETG filament using 0.5mm nozzle setting|
 |__3DWOX 1 - Hatchbox.fff__|Simplify3D profile for Hatchbox-branded PLA filament|
 |__3DWOX 1 - PETG.fff__|Simplify3D profile for various PETG filaments (eSun, Nova)|
 |__3DWOX 1 - Sindoh Filament.fff__|Simplify3D profile for Sindoh-branded PLA and ABS filament|
