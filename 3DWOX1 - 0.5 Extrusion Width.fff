@@ -142,7 +142,7 @@
   <baudRateOverride>115200</baudRateOverride>
   <overridePrinterModels>1</overridePrinterModels>
   <printerModelsOverride></printerModelsOverride>
-  <startingGcode>;PRINTER_MODEL: [3DWOX 1],T0 ; select primary tool,M140 S[bed0_temperature],M104 T0 S[extruder0_temperature],,M107	;fan off,G200	;nozzle cleaning,G21	;metric values,G90	;absolute positioning,G92 E-20	;zero the extruded length,,M190 S[bed0_temperature],M109 T0 S[extruder0_temperature],,G28	;Home,M298	;Move Nozzles on Bed plate,G0 F9000 Z3.00,M206 X0.0 Y0.0 Z-0.15		;Offset z direction,,G1 F1800 E-6.000000,</startingGcode>
+  <startingGcode>T0 ; select primary tool,M140 S[bed0_temperature],M104 T0 S[extruder0_temperature],,M107	;fan off,G200	;nozzle cleaning,G21	;metric values,G90	;absolute positioning,G92 E-20	;zero the extruded length,,M190 S[bed0_temperature],M109 T0 S[extruder0_temperature],,G28	;Home,M298	;Move Nozzles on Bed plate,G0 F9000 Z3.00,M206 X0.0 Y0.0 Z-0.15		;Offset z direction,,G1 F1800 E-6.000000,</startingGcode>
   <layerChangeGcode></layerChangeGcode>
   <retractionGcode></retractionGcode>
   <toolChangeGcode></toolChangeGcode>
