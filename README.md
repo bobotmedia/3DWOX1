@@ -10,4 +10,4 @@ Files related to Sindoh 3DWOX1
 |__3DWOX1-PLA-0.8-Extrusion.ini__|**_\*\*\*UNTESTED\*\*\*_** Sindoh 3DWOX Desktop Software profile for PLA filament using 0.8mm extrusion width setting on 3DWOX1|
 |__Sindoh 3DWOX1 Filament Spool Spacer v6 - TOP.stl__|.STL file for Sindoh 3DWOX1 4mm spool width spacer (TOP)|
 |__Sindoh 3DWOX1 Filament Spool Spacer v6 - BOTTOM.stl__|.STL file for Sindoh 3DWOX1 4mm spool width spacer (BOTTOM)|
-
+|__v5 - 3DWOX1 (Bobot).fff__|Simplify3D 5.0.0 profile for PLA on Sindoh 3DWOX1|
