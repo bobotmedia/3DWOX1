@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile name="v5 - 3DWOX1 (Bobot)" version="2023-01-07 13:51:36" app="S3D-Software 5.0.0" technology="fff">
+  <baseProfile>Sindoh 3DWOX 1</baseProfile>
+  <extruder name="Primary Extruder">
+    <toolheadNumber>
+      <option value="0" displayValue="Tool 0" selected="1"/>
+      <option value="1" displayValue="Tool 1"/>
+      <option value="2" displayValue="Tool 2"/>
+      <option value="3" displayValue="Tool 3"/>
+      <option value="4" displayValue="Tool 4"/>
+      <option value="5" displayValue="Tool 5"/>
+    </toolheadNumber>
+    <nozzleDiameter>0.40000</nozzleDiameter>
+    <extrusionMultiplier>1.02000</extrusionMultiplier>
+    <extrusionWidthMode>
+      <option value="automatic" displayValue="Automatic" selected="1"/>
+      <option value="manual" displayValue="Manual"/>
+    </extrusionWidthMode>
+    <extrusionWidth>0.40000</extrusionWidth>
+    <useRetraction>1</useRetraction>
+    <retractDistance>6.00000</retractDistance>
+    <extraRestartDistance>0.00000</extraRestartDistance>
+    <retractVerticalLift>0.00000</retractVerticalLift>
+    <retractSpeed>1800.00000</retractSpeed>
+    <useCoasting>1</useCoasting>
+    <coastingDistance>0.20000</coastingDistance>
+    <useWiping>1</useWiping>
+    <wipingDistance>3.00000</wipingDistance>
+    <speedMaxFlowRate>1000.00000</speedMaxFlowRate>
+    <toolheadOffsetX>0.00000</toolheadOffsetX>
+    <toolheadOffsetY>0.00000</toolheadOffsetY>
+    <filamentDiameter>1.75000</filamentDiameter>
+    <filamentPricePerKilogram>46.00000</filamentPricePerKilogram>
+    <filamentDensity>1.25000</filamentDensity>
+  </extruder>
+  <primaryExtruder>
+    <option value="Primary Extruder" selected="1"/>
+  </primaryExtruder>
+  <layerHeight>0.20000</layerHeight>
+  <topSolidLayers>3</topSolidLayers>
+  <bottomSolidLayers>3</bottomSolidLayers>
+  <outlinePerimeters>4</outlinePerimeters>
+  <useVaseMode>0</useVaseMode>
+  <useAdaptiveLayerHeights>0</useAdaptiveLayerHeights>
+  <minAdaptiveLayerHeight>0.10000</minAdaptiveLayerHeight>
+  <maxAdaptiveLayerHeight>0.30000</maxAdaptiveLayerHeight>
+  <adaptiveSmoothingLevel>5</adaptiveSmoothingLevel>
+  <horizontalOuterCompensation>0.00000</horizontalOuterCompensation>
+  <horizontalInnerCompensation>0.00000</horizontalInnerCompensation>
+  <firstLayerUnits>
+    <option value="percentage" displayValue="Percentage" selected="1"/>
+    <option value="absolute" displayValue="Absolute"/>
+  </firstLayerUnits>
+  <firstLayerHeightPercentage>110</firstLayerHeightPercentage>
+  <firstLayerWidthPercentage>175</firstLayerWidthPercentage>
+  <firstLayerSpeedPercentage>25</firstLayerSpeedPercentage>
+  <firstLayerHeightAbsolute>0.30000</firstLayerHeightAbsolute>
+  <firstLayerWidthAbsolute>0.40000</firstLayerWidthAbsolute>
+  <firstLayerSpeedAbsolute>900.00000</firstLayerSpeedAbsolute>
+  <startPointStrategy>
+    <option value="random" displayValue="Randomize start point placement"/>
+    <option value="closest" displayValue="Optimize start points for fastest printing" selected="1"/>
+    <option value="aligned" displayValue="Align start points at a specific XY location"/>
+  </startPointStrategy>
+  <alignStartPointsX>0.00000</alignStartPointsX>
+  <alignStartPointsY>0.00000</alignStartPointsY>
+  <restrictStartPoints>1</restrictStartPoints>
+  <perimeterPrintingOrder>
+    <option value="inside_out" displayValue="Inside-Out" selected="1"/>
+    <option value="outside_in" displayValue="Outside-In"/>
+  </perimeterPrintingOrder>
+  <islandPrintingOrder>
+    <option value="closest" displayValue="Minimize Print Time" selected="1"/>
+    <option value="consistent" displayValue="Consistent Order"/>
+    <option value="combined" displayValue="All At Once"/>
+  </islandPrintingOrder>
+  <printInfillBeforePerimeters>0</printInfillBeforePerimeters>
+  <useSkirt>1</useSkirt>
+  <skirtExtruder>
+    <option value="Primary Extruder" selected="1"/>
+    <option value="All Extruders"/>
+  </skirtExtruder>
+  <skirtLayers>1</skirtLayers>
+  <skirtOffset>6.00000</skirtOffset>
+  <skirtOutlines>4</skirtOutlines>
+  <useRaft>0</useRaft>
+  <raftExtruder>
+    <option value="Primary Extruder" selected="1"/>
+  </raftExtruder>
+  <raftBaseLayers>2</raftBaseLayers>
+  <raftTopLayers>3</raftTopLayers>
+  <raftOffset>3.00000</raftOffset>
+  <raftSeparationDistance>0.14000</raftSeparationDistance>
+  <raftSpeedUnits>
+    <option value="percentage" displayValue="Percentage" selected="1"/>
+    <option value="absolute" displayValue="Absolute"/>
+  </raftSpeedUnits>
+  <raftSpeedPercentage>30</raftSpeedPercentage>
+  <raftSpeedAbsolute>600.00000</raftSpeedAbsolute>
+  <usePrimePillar>0</usePrimePillar>
+  <primePillarExtruder>
+    <option value="Primary Extruder"/>
+    <option value="All Extruders" selected="1"/>
+  </primePillarExtruder>
+  <primePillarWidth>12.00000</primePillarWidth>
+  <primePillarLocation>
+    <option value="north" displayValue="North"/>
+    <option value="north_east" displayValue="North-East"/>
+    <option value="east" displayValue="East"/>
+    <option value="south_east" displayValue="South-East"/>
+    <option value="south" displayValue="South"/>
+    <option value="south_west" displayValue="South-West"/>
+    <option value="west" displayValue="West"/>
+    <option value="north_west" displayValue="North-West" selected="1"/>
+  </primePillarLocation>
+  <primePillarSpeedPercentage>100</primePillarSpeedPercentage>
+  <primePillarInfillPercentage>100</primePillarInfillPercentage>
+  <autoStopPrimePillar>1</autoStopPrimePillar>
+  <primePillarLayersAfterAutoStop>0</primePillarLayersAfterAutoStop>
+  <useOozeShield>0</useOozeShield>
+  <oozeShieldExtruder>
+    <option value="Primary Extruder"/>
+    <option value="All Extruders" selected="1"/>
+  </oozeShieldExtruder>
+  <oozeShieldOffset>2.00000</oozeShieldOffset>
+  <oozeShieldOutlines>1</oozeShieldOutlines>
+  <oozeShieldSidewallShape>
+    <option value="vertical" displayValue="Vertical"/>
+    <option value="waterfall" displayValue="Waterfall" selected="1"/>
+    <option value="contoured" displayValue="Contoured"/>
+  </oozeShieldSidewallShape>
+  <oozeShieldSidewallAngle>30</oozeShieldSidewallAngle>
+  <oozeShieldSpeedPercentage>100</oozeShieldSpeedPercentage>
+  <autoStopOozeShield>1</autoStopOozeShield>
+  <oozeShieldLayersAfterAutoStop>0</oozeShieldLayersAfterAutoStop>
+  <sparseInfillExtruder>
+    <option value="Primary Extruder" selected="1"/>
+  </sparseInfillExtruder>
+  <sparseInfillPattern>
+    <option value="aligned" displayValue="Aligned"/>
+    <option value="rectilinear" displayValue="Rectilinear" selected="1"/>
+    <option value="grid" displayValue="Grid"/>
+    <option value="triangular" displayValue="Triangular"/>
+    <option value="sinusoidal" displayValue="Sinusoidal"/>
+    <option value="wiggle" displayValue="Wiggle"/>
+    <option value="fast_honeycomb" displayValue="Fast Honeycomb"/>
+    <option value="full_honeycomb" displayValue="Full Honeycomb"/>
+    <option value="octahedral" displayValue="Octahedral"/>
+    <option value="cubic" displayValue="Cubic"/>
+    <option value="gyroid" displayValue="Gyroid"/>
+  </sparseInfillPattern>
+  <sparseInfillRotation>0</sparseInfillRotation>
+  <sparseInfillPercentage>13</sparseInfillPercentage>
+  <sparseInfillExtrusionWidthPercentage>100</sparseInfillExtrusionWidthPercentage>
+  <sparseInfillCombinedLayers>1</sparseInfillCombinedLayers>
+  <denseInfillLayers>0</denseInfillLayers>
+  <denseInfillPercentage>50</denseInfillPercentage>
+  <infillOutlineOverlapPercentage>15</infillOutlineOverlapPercentage>
+  <minInfillLength>5.00000</minInfillLength>
+  <externalInfillPattern>
+    <option value="aligned" displayValue="Aligned"/>
+    <option value="rectilinear" displayValue="Rectilinear" selected="1"/>
+    <option value="concentric" displayValue="Concentric"/>
+  </externalInfillPattern>
+  <externalInfillRotation>0</externalInfillRotation>
+  <solidInfillThresholdArea>25.00000</solidInfillThresholdArea>
+  <solidInfillExtraExpansion>0.00000</solidInfillExtraExpansion>
+  <useDiaphragm>0</useDiaphragm>
+  <diaphragmSolidLayers>3</diaphragmSolidLayers>
+  <diaphragmSpacingLayers>20</diaphragmSpacingLayers>
+  <sparseSupportExtruder>
+    <option value="Primary Extruder" selected="1"/>
+  </sparseSupportExtruder>
+  <sparseSupportInfillPattern>
+    <option value="aligned" displayValue="Aligned" selected="1"/>
+    <option value="rectilinear" displayValue="Rectilinear"/>
+    <option value="grid" displayValue="Grid"/>
+    <option value="triangular" displayValue="Triangular"/>
+  </sparseSupportInfillPattern>
+  <sparseSupportInfillRotation>0</sparseSupportInfillRotation>
+  <sparseSupportInfillPercentage>30</sparseSupportInfillPercentage>
+  <sparseSupportOutlines>0</sparseSupportOutlines>
+  <sparseSupportCombinedLayers>1</sparseSupportCombinedLayers>
+  <upperDenseSupportLayers>0</upperDenseSupportLayers>
+  <lowerDenseSupportLayers>0</lowerDenseSupportLayers>
+  <denseSupportExtruder>
+    <option value="Primary Extruder" selected="1"/>
+  </denseSupportExtruder>
+  <denseSupportInfillPercentage>70</denseSupportInfillPercentage>
+  <denseSupportExtraExpansion>0.00000</denseSupportExtraExpansion>
+  <baseSupportLayers>0</baseSupportLayers>
+  <supportInflationDistance>0.00000</supportInflationDistance>
+  <supportHorizontalPartOffset>0.30000</supportHorizontalPartOffset>
+  <supportUpperSeparationLayers>1</supportUpperSeparationLayers>
+  <supportLowerSeparationLayers>1</supportLowerSeparationLayers>
+  <temperatureController name="Primary Extruder">
+    <enableTemperatureController>1</enableTemperatureController>
+    <temperatureNumber>
+      <option value="0" displayValue="T0" selected="1"/>
+      <option value="1" displayValue="T1"/>
+      <option value="2" displayValue="T2"/>
+      <option value="3" displayValue="T3"/>
+      <option value="4" displayValue="T4"/>
+      <option value="5" displayValue="T5"/>
+    </temperatureNumber>
+    <temperatureType>
+      <option value="extruder" displayValue="Extruder" selected="1"/>
+      <option value="platform" displayValue="Heated Build Platform"/>
+      <option value="chamber" displayValue="Heated Chamber"/>
+    </temperatureType>
+    <stabilizeAtStartup>1</stabilizeAtStartup>
+    <temperatureSetpoints>
+      <option value="1|200"/>
+    </temperatureSetpoints>
+    <useIdleCooldown>0</useIdleCooldown>
+    <cooldownTemperature>150</cooldownTemperature>
+    <cooldownRequiredIdleTime>180</cooldownRequiredIdleTime>
+    <cooldownReheatTime>60</cooldownReheatTime>
+  </temperatureController>
+  <temperatureController name="Heated Bed">
+    <enableTemperatureController>1</enableTemperatureController>
+    <temperatureNumber>
+      <option value="0" displayValue="T0" selected="1"/>
+      <option value="1" displayValue="T1"/>
+      <option value="2" displayValue="T2"/>
+      <option value="3" displayValue="T3"/>
+      <option value="4" displayValue="T4"/>
+      <option value="5" displayValue="T5"/>
+    </temperatureNumber>
+    <temperatureType>
+      <option value="extruder" displayValue="Extruder"/>
+      <option value="platform" displayValue="Heated Build Platform" selected="1"/>
+      <option value="chamber" displayValue="Heated Chamber"/>
+    </temperatureType>
+    <stabilizeAtStartup>1</stabilizeAtStartup>
+    <temperatureSetpoints>
+      <option value="1|65"/>
+    </temperatureSetpoints>
+    <useIdleCooldown>0</useIdleCooldown>
+    <cooldownTemperature>150</cooldownTemperature>
+    <cooldownRequiredIdleTime>180</cooldownRequiredIdleTime>
+    <cooldownReheatTime>60</cooldownReheatTime>
+  </temperatureController>
+  <fan name="Cooling Fan">
+    <fanNumber>
+      <option value="0" displayValue="T0" selected="1"/>
+      <option value="1" displayValue="T1"/>
+      <option value="2" displayValue="T2"/>
+      <option value="3" displayValue="T3"/>
+      <option value="4" displayValue="T4"/>
+      <option value="5" displayValue="T5"/>
+    </fanNumber>
+    <fanType>
+      <option value="extruder" displayValue="Extruder Mounted" selected="1"/>
+      <option value="environmental" displayValue="Environmental"/>
+    </fanType>
+    <blipFanToFullPower>0</blipFanToFullPower>
+    <fanSetpoints>
+      <option value="1|0"/>
+      <option value="2|50"/>
+      <option value="3|100"/>
+    </fanSetpoints>
+    <increaseFanForQuickLayers>0</increaseFanForQuickLayers>
+    <fanMaxQuickLayerTime>45.00000</fanMaxQuickLayerTime>
+    <fanMinQuickLayerTime>15.00000</fanMinQuickLayerTime>
+    <maxQuickLayerFanSpeedPercentage>100</maxQuickLayerFanSpeedPercentage>
+  </fan>
+  <defaultPrintSpeed>3600.00000</defaultPrintSpeed>
+  <outerPerimeterSpeedPercentage>50</outerPerimeterSpeedPercentage>
+  <innerPerimeterSpeedPercentage>80</innerPerimeterSpeedPercentage>
+  <solidInfillSpeedPercentage>80</solidInfillSpeedPercentage>
+  <sparseSupportSpeedPercentage>80</sparseSupportSpeedPercentage>
+  <denseSupportSpeedPercentage>70</denseSupportSpeedPercentage>
+  <travelSpeedXY>4800.00000</travelSpeedXY>
+  <travelSpeedZ>1000.00000</travelSpeedZ>
+  <reduceSpeedForQuickLayers>1</reduceSpeedForQuickLayers>
+  <speedMaxQuickLayerTime>15.00000</speedMaxQuickLayerTime>
+  <minQuickLayerSpeedPercentage>20</minQuickLayerSpeedPercentage>
+  <reduceSpeedForShortPerimeters>1</reduceSpeedForShortPerimeters>
+  <speedMaxShortPerimeterLength>80.00000</speedMaxShortPerimeterLength>
+  <minShortPerimeterSpeedPercentage>50</minShortPerimeterSpeedPercentage>
+  <reduceSpeedForMaxFlowRate>0</reduceSpeedForMaxFlowRate>
+  <accelXY>1000.00000</accelXY>
+  <accelZ>150.00000</accelZ>
+  <accelE>3000.00000</accelE>
+  <jerkXY>600.00000</jerkXY>
+  <jerkZ>24.00000</jerkZ>
+  <jerkE>300.00000</jerkE>
+  <exportFileFormat>
+    <option value="gcode" displayValue="Standard G-Code (.gcode)" selected="1"/>
+    <option value="x3g" displayValue="Binary X3G File (.x3g)"/>
+    <option value="gx" displayValue="FlashForge (.gx)"/>
+    <option value="g3drem" displayValue="Dremel (.g3drem)"/>
+    <option value="3w" displayValue="XYZprinting (.3w)"/>
+    <option value="makerbot" displayValue="MakerBot (.makerbot)"/>
+    <option value="bfb" displayValue="Bits from Bytes (.bfb)"/>
+  </exportFileFormat>
+  <useStickyCommands>1</useStickyCommands>
+  <use5D>1</use5D>
+  <relativeExtrusionDistances>0</relativeExtrusionDistances>
+  <allowExtruderAxisZeroing>1</allowExtruderAxisZeroing>
+  <independentExtruderAxes>0</independentExtruderAxes>
+  <includeM10123>0</includeM10123>
+  <x3gMachineProfile>
+    <option value="c3" displayValue="Cupcake Gen3 XYZ, Mk5/6 + Gen4 extruder"/>
+    <option value="c4" displayValue="Cupcake Gen4 XYZ, Mk5/6 + Gen4 extruder"/>
+    <option value="cp4" displayValue="Cupcake Pololu XYZ, Mk5/6 + Gen4 extruder"/>
+    <option value="cpp" displayValue="Cupcake Pololu XYZ, Mk5/6 + Pololu extruder"/>
+    <option value="t6" displayValue="TOM Mk6 - single extruder"/>
+    <option value="t7" displayValue="TOM Mk7 - single extruder"/>
+    <option value="t7d" displayValue="TOM Mk7 - dual extruder"/>
+    <option value="r1" displayValue="Replicator 1 - single extruder"/>
+    <option value="r1d" displayValue="Replicator 1 - dual extruder"/>
+    <option value="r2" displayValue="Replicator 2" selected="1"/>
+    <option value="r2h" displayValue="Replicator 2 with HBP"/>
+    <option value="r2x" displayValue="Replicator 2X"/>
+    <option value="m180" displayValue="Malyan M180"/>
+    <option value="3dimulti" displayValue="3Dison Multi"/>
+    <option value="3dipro" displayValue="3Dison Pro and H700"/>
+  </x3gMachineProfile>
+  <overrideStepsPerMillimeter>0</overrideStepsPerMillimeter>
+  <stepsPerMillimeterX>88.57319</stepsPerMillimeterX>
+  <stepsPerMillimeterY>88.57319</stepsPerMillimeterY>
+  <stepsPerMillimeterZ>400.00000</stepsPerMillimeterZ>
+  <stepsPerMillimeterA>96.27520</stepsPerMillimeterA>
+  <stepsPerMillimeterB>96.27520</stepsPerMillimeterB>
+  <xyzFileFormatVersion>
+    <option value="1" displayValue="Version 1" selected="1"/>
+    <option value="2" displayValue="Version 2"/>
+    <option value="3" displayValue="Version 3"/>
+    <option value="5" displayValue="Version 5"/>
+  </xyzFileFormatVersion>
+  <makerBotMachineProfile>
+    <option value="mini_4" displayValue="MakerBot Mini"/>
+    <option value="mini_8" displayValue="MakerBot Mini+"/>
+    <option value="replicator_5" displayValue="MakerBot Replicator 5th Gen" selected="1"/>
+    <option value="replicator_b" displayValue="MakerBot Replicator+"/>
+    <option value="z18_6" displayValue="MakerBot Z18"/>
+    <option value="fire_e" displayValue="MakerBot Method"/>
+    <option value="lava_f" displayValue="MakerBot Method X"/>
+    <option value="sketch" displayValue="MakerBot Sketch"/>
+  </makerBotMachineProfile>
+  <makerBotModelExtruder>
+    <option value="mk13" displayValue="Smart Extruder+" selected="1"/>
+    <option value="mk13_impla" displayValue="Tough Smart Extruder+"/>
+    <option value="mk14" displayValue="Model 1A"/>
+    <option value="mk14_c" displayValue="Model 1C"/>
+    <option value="mk14_hot" displayValue="Model 1XA"/>
+    <option value="mk14_e" displayValue="LABS Extruder"/>
+    <option value="sketch_extruder" displayValue="Sketch Extruder"/>
+  </makerBotModelExtruder>
+  <makerBotSupportExtruder>
+    <option value="mk14_s" displayValue="Support 2A" selected="1"/>
+    <option value="mk14_hot_s" displayValue="Support 2XA"/>
+  </makerBotSupportExtruder>
+  <makerBotModelMaterial>
+    <option value="pla" displayValue="PLA" selected="1"/>
+    <option value="im-pla" displayValue="Tough"/>
+    <option value="nylon" displayValue="Nylon"/>
+    <option value="nylon-cf" displayValue="Nylon Carbon Fiber"/>
+    <option value="nylon12-cf" displayValue="Nylon 12 Carbon Fiber"/>
+    <option value="pet" displayValue="PETG"/>
+    <option value="abs" displayValue="ABS"/>
+    <option value="asa" displayValue="ASA"/>
+    <option value="pc-abs" displayValue="PC-ABS"/>
+    <option value="pc-abs-fr" displayValue="PC-ABS-FR"/>
+    <option value="metal" displayValue="Metal"/>
+    <option value="abs-wss1" displayValue="ABS-R"/>
+  </makerBotModelMaterial>
+  <makerBotSupportMaterial>
+    <option value="pva" displayValue="PVA" selected="1"/>
+    <option value="sr30" displayValue="SR-30"/>
+    <option value="wss1" displayValue="RapidRinse"/>
+  </makerBotSupportMaterial>
+  <globalOffsetX>0.00000</globalOffsetX>
+  <globalOffsetY>0.00000</globalOffsetY>
+  <globalOffsetZ>0.00000</globalOffsetZ>
+  <applyToolheadOffsets>0</applyToolheadOffsets>
+  <buildVolumeShape>
+    <option value="rectangular" displayValue="Rectangular" selected="1"/>
+    <option value="cylindrical" displayValue="Cylindrical"/>
+  </buildVolumeShape>
+  <buildVolumeX>210.00000</buildVolumeX>
+  <buildVolumeY>200.00000</buildVolumeY>
+  <buildVolumeZ>195.00000</buildVolumeZ>
+  <buildVolumeDiameter>200.00000</buildVolumeDiameter>
+  <originOffsetX>0.00000</originOffsetX>
+  <originOffsetY>0.00000</originOffsetY>
+  <originOffsetZ>0.00000</originOffsetZ>
+  <homingDirectionX>
+    <option value="min" displayValue="Min" selected="1"/>
+    <option value="center" displayValue="Center"/>
+    <option value="max" displayValue="Max"/>
+  </homingDirectionX>
+  <homingDirectionY>
+    <option value="min" displayValue="Min" selected="1"/>
+    <option value="center" displayValue="Center"/>
+    <option value="max" displayValue="Max"/>
+  </homingDirectionY>
+  <homingDirectionZ>
+    <option value="min" displayValue="Min" selected="1"/>
+    <option value="center" displayValue="Center"/>
+    <option value="max" displayValue="Max"/>
+  </homingDirectionZ>
+  <mirrorVisualX>0</mirrorVisualX>
+  <mirrorVisualY>1</mirrorVisualY>
+  <mirrorVisualZ>0</mirrorVisualZ>
+  <machineBackgroundModel></machineBackgroundModel>
+  <startingScript>;PRINTER_MODEL: [3DWOX 1]|T0 ; select primary tool|M140 S[platform0_temperature] ; set bed temperature|M190 S[platform0_temperature] ; stabilize bed|M104 S[extruder0_temperature] T0 ; set extruder temperature|M109 S[extruder0_temperature] T0 ; stabilize extruder|G200 ; clean nozzle|G28 ; home all axes|G1 Z3 F9000 ; lower the bed|M206 X0.0 Y0.0 Z-0.15 ; setup offsets|G1 X5 Y5 Z0.2 F3000 ; get ready to prime|G92 E0 ; reset extrusion distance|G1 X80 E10 F600 ; prime nozzle|G1 X100 F5000 ; quick wipe</startingScript>
+  <preLayerChangeScript></preLayerChangeScript>
+  <postLayerChangeScript></postLayerChangeScript>
+  <preRetractionScript></preRetractionScript>
+  <postRetractionScript></postRetractionScript>
+  <preToolChangeScript></preToolChangeScript>
+  <postToolChangeScript></postToolChangeScript>
+  <processChangeScript></processChangeScript>
+  <endingScript>M2 ; sindoh ending scripts</endingScript>
+  <postProcessingScript></postProcessingScript>
+  <useBridging>1</useBridging>
+  <bridgingThresholdArea>50.00000</bridgingThresholdArea>
+  <bridgingInfillExtraExpansion>0.00000</bridgingInfillExtraExpansion>
+  <bridgingExtrusionModifier>100</bridgingExtrusionModifier>
+  <bridgingSpeedModifier>150</bridgingSpeedModifier>
+  <overrideFanSpeedForBridging>0</overrideFanSpeedForBridging>
+  <bridgingFanSpeedPercentage>100</bridgingFanSpeedPercentage>
+  <useFixedBridgingAngle>0</useFixedBridgingAngle>
+  <fixedBridgingAngle>0</fixedBridgingAngle>
+  <applyBridgingToPerimeters>0</applyBridgingToPerimeters>
+  <bridgingPerimeterExtraOverlap>0.00000</bridgingPerimeterExtraOverlap>
+  <minBridgingPerimeterLength>10.00000</minBridgingPerimeterLength>
+  <useToolChangeRetraction>1</useToolChangeRetraction>
+  <toolChangeRetractDistance>12.00000</toolChangeRetractDistance>
+  <toolChangeExtraRestartDistance>-0.50000</toolChangeExtraRestartDistance>
+  <toolChangeRetractSpeed>600.00000</toolChangeRetractSpeed>
+  <toolChangePrimeOnFirstUse>0</toolChangePrimeOnFirstUse>
+  <toolChangeRetractAtEnd>0</toolChangeRetractAtEnd>
+  <externalThinWallType>
+    <option value="perimeters_only" displayValue="Perimeters Only" selected="1"/>
+    <option value="single_extrusions" displayValue="Allow Single Extrusions"/>
+  </externalThinWallType>
+  <internalThinWallType>
+    <option value="perimeters_only" displayValue="Perimeters Only"/>
+    <option value="single_extrusions" displayValue="Allow Single Extrusions" selected="1"/>
+    <option value="gap_fill" displayValue="Allow Gap Fill"/>
+  </internalThinWallType>
+  <thinWallAllowedOverlapPercentage>10</thinWallAllowedOverlapPercentage>
+  <singleExtrusionMinLength>1.00000</singleExtrusionMinLength>
+  <singleExtrusionMinWidthPercentage>50</singleExtrusionMinWidthPercentage>
+  <singleExtrusionMaxWidthPercentage>200</singleExtrusionMaxWidthPercentage>
+  <singleExtrusionEndpointExtensionDistance>0.20000</singleExtrusionEndpointExtensionDistance>
+  <onlyRetractWhenCrossingOutlines>1</onlyRetractWhenCrossingOutlines>
+  <retractBetweenLayers>1</retractBetweenLayers>
+  <useRetractionMinTravel>0</useRetractionMinTravel>
+  <retractionMinTravel>3.00000</retractionMinTravel>
+  <useRetractionMinExtrusion>0</useRetractionMinExtrusion>
+  <retractionMinExtrusion>3.00000</retractionMinExtrusion>
+  <retractWhileWiping>0</retractWhileWiping>
+  <wipingMode>
+    <option value="outer_perimeter" displayValue="Wipe Outer Perimeters Only" selected="1"/>
+    <option value="any_perimeter" displayValue="Wipe Inner and Outer Perimeters"/>
+    <option value="any_feature" displayValue="Wipe All Features"/>
+  </wipingMode>
+  <avoidCrossingOutlines>0</avoidCrossingOutlines>
+  <maxMovementDetourFactor>3.00000</maxMovementDetourFactor>
+  <openLoopSlicingBehavior>
+    <option value="discard" displayValue="Discard Invalid Segments"/>
+    <option value="heal" displayValue="Close and Heal Segments" selected="1"/>
+    <option value="thicken" displayValue="Thicken Invalid Segments"/>
+  </openLoopSlicingBehavior>
+  <openLoopThickenWidth>0.50000</openLoopThickenWidth>
+  <mergeAllOutlines>0</mergeAllOutlines>
+  <autoConfigureCategory name="Material">
+    <option value="PLA" selected="1">
+      <extruder name="Primary Extruder">
+        <extrusionMultiplier>1.02000</extrusionMultiplier>
+      </extruder>
+      <temperatureController name="Primary Extruder">
+        <temperatureSetpoints>
+          <option value="1|200"/>
+        </temperatureSetpoints>
+      </temperatureController>
+      <temperatureController name="Heated Bed">
+        <temperatureSetpoints>
+          <option value="1|65"/>
+        </temperatureSetpoints>
+      </temperatureController>
+      <fan name="Cooling Fan">
+        <fanSetpoints>
+          <option value="1|0"/>
+          <option value="2|50"/>
+          <option value="3|100"/>
+        </fanSetpoints>
+      </fan>
+    </option>
+  </autoConfigureCategory>
+  <autoConfigureCategory name="Quality">
+    <option value="Fast">
+      <layerHeight>0.30000</layerHeight>
+      <topSolidLayers>3</topSolidLayers>
+      <bottomSolidLayers>3</bottomSolidLayers>
+      <skirtLayers>1</skirtLayers>
+      <sparseInfillPercentage>15</sparseInfillPercentage>
+      <sparseSupportInfillPercentage>25</sparseSupportInfillPercentage>
+    </option>
+    <option value="Medium" selected="1">
+      <layerHeight>0.20000</layerHeight>
+      <topSolidLayers>3</topSolidLayers>
+      <bottomSolidLayers>3</bottomSolidLayers>
+      <skirtLayers>1</skirtLayers>
+      <sparseInfillPercentage>13</sparseInfillPercentage>
+      <sparseSupportInfillPercentage>30</sparseSupportInfillPercentage>
+    </option>
+    <option value="High">
+      <layerHeight>0.10000</layerHeight>
+      <topSolidLayers>4</topSolidLayers>
+      <bottomSolidLayers>4</bottomSolidLayers>
+      <skirtLayers>2</skirtLayers>
+      <sparseInfillPercentage>30</sparseInfillPercentage>
+      <sparseSupportInfillPercentage>40</sparseSupportInfillPercentage>
+    </option>
+  </autoConfigureCategory>
+</profile>
